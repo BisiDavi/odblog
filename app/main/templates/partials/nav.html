@@ -1,0 +1,35 @@
+<nav
+  id="nav"
+  class="nav container-fluid animate__animated animate__fadeInDown bg-white"
+>
+  <div
+    class="row primary-menu position-relative d-flex bg-white justify-content-between px-5 py-0 w-100"
+  >
+    <span class="hamburger_logo position-absolute" onClick="openNav()">
+      <img
+        id="hamburgerWhite"
+        src="{{ url_for('static', filename='images/hamburger.png')}}"
+        alt="menu hamburger"
+        class="hamburger"
+      />
+    </span>
+    <a href="/" class="text-decoration-none">
+      <h1 class="site-title font-weight-bold pl-4 my-0">OD Blog</h1>
+    </a>
+    <span class="dropdown searchIcon">
+      <span
+        class="search dropdown-toggle"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+        id="dropdownMenuSearch"
+        ><i class="fa fa-search" aria-hidden="true"></i
+      ></span>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuSearch">
+        <div class="dropdown-item mt-3">
+          {% include "partials/search.html" %}
+        </div>
+      </div>
+    </span>
+  </div>
+</nav>

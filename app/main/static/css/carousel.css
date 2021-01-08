@@ -1,0 +1,152 @@
+/* @media screen and (max-width: 1380px) and (min-width: 1280px) {
+  .carousel-inner a.carousel-control-next {
+    right: 40px;
+  }
+  .carousel-inner a {
+    top: 100px !important;
+  }
+} */
+
+@media (min-width: 768px) {
+  .carousel_articles {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  div#articleSlider {
+    width: 100% !important;
+    height: 200px !important;
+    margin: auto !important;
+    z-index: 3000;
+    padding: 0px 50px !important;
+    margin-top: -10px !important;
+  }
+
+  .carouselControl {
+    position: absolute;
+    height: 40px;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0px 20px; */
+    bottom: 140px;
+    z-index: 5000;
+  }
+
+  #articleSlider .btn {
+    display: flex;
+    background-color: transparent;
+    margin-top: 90px !important;
+  }
+
+  #articleSlider .owl-dots {
+    width: 200px !important;
+  }
+
+  #articleSlider .owl-dots .owl-dot.active span {
+    width: 30px;
+    height: 5px;
+    background: white;
+    border-radius: 31px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  #articleSlider .owl-dots .owl-dot span {
+    width: 15px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 31px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  /* carousel_news */
+  .carousel_news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  span.main-text {
+    width: 700px !important;
+    height: 200px !important;
+    margin-top: 200px !important;
+    margin-left: 60px !important;
+  }
+
+  #articleSlider .owl-carousel,
+  .articleSlider .owl-satge-outer {
+    height: 200px !important;
+  }
+
+  /* ol.carousel-indicators {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    top: 200px;
+    left: -100px;
+    z-index: 15;
+  } */
+
+  .content-lastest-news {
+    height: 200px !important;
+    display: flex !important;
+    width: 400px;
+  }
+
+  .videoSlide.card-group.slick-initialized.slick-slider.slick-dotted {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .videoSlide ul.slick-dots {
+    display: none !important;
+  }
+
+  .videoSlide card.video button.btn {
+    width: 66px;
+    height: 36px;
+    padding: 0px;
+  }
+
+  a.carousel-control-prev,
+  a.carousel-control-next {
+    height: 40px !important;
+    width: 40px !important;
+    top: 100px;
+  }
+  #showOnMobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .video.card-group.carousel-item.active {
+    display: flex;
+    flex-direction: column;
+  }
+  span#arrowGroup {
+    display: none !important;
+  }
+  #showOnLarge {
+    display: none !important;
+  }
+
+  #articleSlider .btn {
+    display: none !important;
+  }
+
+  .carouselControl {
+    display: none !important;
+  }
+
+  #main .carousel_articles {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+  }
+
+  main#main .carousel_articles .main-text h1 {
+    font-size: 40px !important;
+    line-height: 50px;
+  }
+}

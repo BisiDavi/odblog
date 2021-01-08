@@ -1,0 +1,105 @@
+<header id="mainHeader" class="container-fluid header">
+  <div class="row secondary-menu d-flex justify-content-between px-4">
+    <ul class="menu-links d-flex pl-4">
+      <li class="d-none d-lg-none font-weight-bold site-name">
+        <a href="#OD_Blog">OD Blog</a>
+      </li>
+      <li class="hide-sm"><a href="/">Home</a></li>
+      <li><a href="/videos">Videos</a></li>
+      <li><a href="/saved-posts">Saved Posts</a></li>
+      <!-- <li><a href="/contact-us">Contact</a></li> -->
+      <span class="dropdown">
+        <li
+          class="about-link dropdown-toggle"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          id="dropdownMenuAbout"
+        >
+          About
+        </li>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuAbout">
+          <button class="dropdown-item" type="button">
+            <a href="/contact-us"> Contact Us </a>
+          </button>
+          <button class="dropdown-item" type="button">
+            <a href="/about-us">About Us</a>
+          </button>
+        </div>
+      </span>
+      <span class="dropdown">
+        <li
+          class="contribute dropdown-toggle"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          id="dropdownMenuContribute"
+        >
+          Contribute
+        </li>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuContribute">
+          <button class="dropdown-item" type="button">
+            <a href="/contribute">Contribute</a>
+          </button>
+          <button class="dropdown-item" type="button">
+            <a href="/promotion">Promotion</a>
+          </button>
+        </div>
+      </span>
+      <span class="dropdown">
+        <li
+          class="site-lang-english dropdown-toggle hide-sm"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          id="dropdownMenuLang"
+        >
+          English (EN)
+        </li>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLang">
+          <button class="dropdown-item" type="button">English</button>
+          <button class="dropdown-item" type="button">French</button>
+          <button class="dropdown-item" type="button">Kiyarwanda</button>
+        </div>
+      </span>
+    </ul>
+    <ul class="social_icon-links d-flex my-0 mx-5">
+      <li onClick="toggleButton()" class="toggle-themes">
+        <a href="#togglebutton"
+          ><img
+            id="switchButtonWhite"
+            src="{{ url_for('static', filename='images/switch.png')}}"
+            class="theme_switch mx-1"
+            alt="switch mode"
+          />
+        </a>
+      </li>
+      <li class="ml-1 mr-3 dark_mode">
+        <a href="#togglebutton">Dark Mode</a>
+      </li>
+      <li>
+        <a href="#facebook"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#twitter"><i class="fa fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="#instagram"><i class="fa fa-instagram"></i></a>
+      </li>
+    </ul>
+  </div>
+</header>
+<div id="sidenav" class="sidebar">
+  <ul class="menu-links d-flex pl-4">
+    <li class="d-none d-lg-none font-weight-bold site-name">
+      <a href="/">OD Blog</a>
+    </li>
+    <li><a href="/videos">Videos</a></li>
+    <li><a href="/saved-posts">Saved Posts</a></li>
+    <li><a href="/contact-us">Contact</a></li>
+    <li><a href="/about-us">About</a></li>
+    <li><a href="/contribute"> Contribute</a></li>
+    <li><a href="/register"> Register</a></li>
+  </ul>
+</div>
+<div onClick="closeNav()" id="sidebarOverlay" class="sidebar_overlay"></div>

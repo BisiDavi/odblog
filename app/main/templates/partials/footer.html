@@ -1,0 +1,76 @@
+<footer class="footer container-fluid p-5">
+  <div class="row">
+    <div class="col-lg-3 d-flex flex-column blog">
+      <h1 class="text-white font-weight-bold">OD Blog</h1>
+      <p class="text-muted my-4">©2021 OD Blog. All Rights Reserved.</p>
+      <span class="social_icons d-flex mt-2">
+        {% include 'partials/socialIcons.html' %}
+      </span>
+    </div>
+    <div class="col-lg-2 d-flex flex-column">
+      <h6 class="text-white">USEFUL LINKS</h6>
+      <ul class="footer-links d-flex flex-column">
+        <li class="mt-3"><a href="#Music">Music</a></li>
+        <li><a href="#Podcast">Podcast</a></li>
+        <li><a href="#What's Hot">What's Hot</a></li>
+        <li><a href="What's Rising">What's Rising</a></li>
+        <li><a href="#What's New">What's New</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-3 hideme_mobile">
+      <h6 class="text-white">WHAT'S NEW</h6>
+
+      <div class="footer_news row d-flex mt-4">
+        <div class="col-lg-4">
+          <div class="rounded-circle"></div>
+        </div>
+        <div class="col-lg-8">
+          <div class="footer_news_content d-flex flex-column">
+            <p class="news_text">Apple sells new yoga mats and bike helmets</p>
+            <span class="author d-flex mt-4">
+              <p class="text-muted">
+                BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer_news row d-flex my-2">
+        <div class="col-lg-4">
+          <div class="rounded-circle"></div>
+        </div>
+        <div class="col-lg-8">
+          <div class="footer_news_content d-flex flex-column">
+            <p class="news_text">Apple sells new yoga mats and bike helmets</p>
+            <span class="author d-flex mt-4">
+              <p class="text-muted">
+                BY <span class="text-primary">JOHN DOE</span> - JAN. 01, 2021
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 hideme_mobile">
+      <h6 class="text-white">NEWSLETTER</h6>
+      <span class="d-flex my-3">
+        <i
+          class="fa fa-envelope-o m fa-2x text-muted mr-2"
+          aria-hidden="true"
+        ></i>
+        <p class="text-muted mt-1">Subscribe For Our Daily Posts</p>
+      </span>
+      <form id="footerForm" class="d-flex">
+        <input
+          class="form-control footer-form form-control-lg"
+          type="email"
+          placeholder="Your Email"
+        />
+        <button type="submit" class="btn btn-primary bg-primary">
+          SIGN UP
+        </button>
+      </form>
+    </div>
+  </div>
+</footer>
+  

@@ -1,0 +1,174 @@
+.contribute h3,
+.promotion h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: -0.05em;
+  color: #171821;
+}
+
+.contribute-content h3,
+.promotion-content h3 {
+  font-size: 1em;
+}
+
+.forminput {
+  display: flex;
+  flex-direction: column;
+}
+
+.forminput input {
+  width: 230px;
+  height: 46px;
+  background: #f7f7f7;
+  border: 1px solid #e3e4e8;
+  box-sizing: border-box;
+}
+
+.d-flex .forminput {
+  margin-right: 15px;
+}
+
+.forminput textarea {
+  width: 738px;
+  height: 185px;
+  background: #f7f7f7;
+  border: 1px solid #e3e4e8;
+  box-sizing: border-box;
+}
+
+.attachFile {
+  height: 46px;
+  border: 1px dashed #e3e4e8 !important;
+  box-sizing: border-box;
+  background: white;
+  cursor: pointer;
+  width: 230px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputfile + label.attachFile {
+  cursor: pointer; /* "hand" cursor */
+}
+
+.inputfile:focus + label.attachFile {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile:focus + label.attachFile,
+.inputfile.has-focus + label.attachFile {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+/* .inputFile + label.attachFile {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  border: 1px dashed #e3e4e8;
+  background-color: white;
+  display: inline-block;
+}
+ */
+.addFile {
+  width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 30px;
+  margin-top: 6px;
+}
+.inputFile:focus + label.attachFile,
+.inputFile + label.attachFile:hover {
+  box-sizing: border-box;
+  background: rgba(121, 117, 117, 0.2);
+}
+
+@media (max-width: 768px) {
+  .promotion .forminput textarea,
+  .contribute .forminput textarea {
+    width: 100% !important;
+  }
+
+  .promotion .d-flex,
+  .contribute .d-flex {
+    flex-direction: column;
+  }
+
+  .promotion.container,
+  .contribute.container {
+    background: white;
+  }
+
+  .forminput input {
+    width: 100%;
+  }
+
+  .d-flex .forminput {
+    margin-right: 0px;
+  }
+
+  .promotion h3.mt-2,
+  .contribute h3.mt-2 {
+    padding-top: 80px;
+    font-size: 1.5em;
+    margin-left: 15px;
+  }
+
+  .promotion nav,
+  .contribute nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 769px) {
+  .forminput textarea {
+    width: 100% !important;
+  }
+}
+
+.js .inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label.attachFile {
+  max-width: 80%;
+  font-size: 1.25rem;
+  /* 20px */
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.625rem 1.25rem;
+  /* 10px 20px */
+}
+
+.no-js .inputFile + label.attachFile {
+  display: none;
+}
+
+.inputfile:focus + label.attachFile,
+.inputfile.has-focus + label.attachFile {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}

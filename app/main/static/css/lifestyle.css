@@ -1,0 +1,411 @@
+.lifestyle .comment_head h5,
+.lifestyle .comment_head p,
+.lifestyle .leavereply h3,
+.lifestyle .comment-body p,
+.lifestyle .row.postcomment.mx-2 .col-lg-3 .btn,
+.article_maincontent p,
+.article_maincontent q,
+.lifestyle .page-topic h6,
+.lifestyle .page-topic h1.text-white,
+.lifestyle .page-topic p.px-1,
+.commentsRow h3,
+.usercomment .reply.text-muted,
+h4.articleTitle {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+.viewReplies.text-muted.font-weight-bold {
+  font-size: 12px;
+line-height: 140.62%;
+}
+.usercomment .reply.text-muted {
+  font-size: 15px !important;
+  font-size: 15px;
+  line-height: 21px;
+  color: #83858f !important;
+}
+.lifestyle .row.shareSocialIcons .col-lg-3.d-flex {
+  height: 33px;
+  background: #171821 !important;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: -5px;
+}
+.lifestyle .row.shareSocialIcons img {
+  height: 20px;
+  width: 20px !important;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.lifestyle .row.shareSocialIcons div {
+  justify-content: center;
+  height: 30px;
+}
+
+.lifestyle .row.shareSocialIcons .col-lg-3.d-flex p {
+  color: white;
+  font-size: 17px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+
+.relatedArticles div#videoCarouselIndicator {
+  padding-left: 20px !important;
+}
+.lifestyle p.card-text {
+  margin-left: -20px !important;
+  width: 200px;
+  font-size: 15px;
+  line-height: 21px;
+}
+.relatedArticles div#videoCarouselIndicator {
+  padding-left: 20px !important;
+}
+.lifestyle .comment_head {
+  display: flex;
+}
+.lifestylePage nav.navBreadcrumb {
+  margin: 80px 0px 25px 30px;
+}
+
+.lifestyle .comment_head h5 {
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.05em;
+  color: #171821;
+}
+
+.lifestyle .comment_head p {
+  margin-top: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #83858f;
+}
+
+.lifestyle .row.leavereply {
+  margin-top: 60px !important;
+}
+
+.lifestyle .row.commentsRow {
+  margin-top: 30px;
+}
+
+.lifestyle .leavereply h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #171821;
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+.lifestyle form.row.postcomment {
+  margin-left: 20px !important;
+}
+li.col-lg-12.usercomment.firstComment {
+  border-bottom: none !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px;
+}
+span.usercomment.d-flex,
+li.col-lg-12.usercomment.d-flex.grgr {
+  margin-left: 20px;
+  width: 87%;
+}
+.commentsection li.usercomment.d-flex.reply {
+  width: 82% !important;
+  margin: 20px 50px;
+}
+
+.usercomment {
+  border-bottom: 1px dotted gray !important;
+  padding: 0px 0px 25px 0px;
+}
+
+.lifestyle .comment-body p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #54555e;
+}
+.whats_new_articles2 h4 {
+  display: none;
+}
+.lifestyle.container-fluid {
+  margin-top: -45px !important;
+}
+
+.lifestyle .overlay {
+  left: 0px !important;
+}
+
+.lifestyle #carouselSlider .carousel_articles {
+  position: absolute;
+  bottom: 30px !important;
+  left: -20px;
+  width: 75% !important;
+  height: 150px !important;
+}
+
+#Comment {
+  width: 660px;
+  height: 200px;
+  background: #f7f7f7;
+  border: 1px solid #e3e4e8;
+  box-sizing: border-box;
+}
+
+.lifestyle form.row.postcomment .col-lg-4 {
+  padding: 0px !important;
+  margin: 0px !important;
+  max-width: 32% !important;
+}
+.lifestyle form.row.postcomment {
+  margin-left: 40px !important;
+  padding-right: 0px;
+}
+.lifestyle .row.postcomment.mx-2 .col-lg-3 .btn {
+  width: 148px;
+  height: 46px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: -15px !important;
+  background: #f44336 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  margin-top: 15px;
+}
+.article_maincontent p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: lowercase;
+  color: #54555e;
+}
+
+.article_maincontent q {
+  display: flex;
+  margin: 15px auto;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #171821;
+  width: 80%;
+}
+
+.page-topic {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 75%;
+}
+
+.lifestyle .whats_new .text-center.d-none.d-lg-block {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #171821;
+}
+
+.lifestyle .page-topic h6 {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.lifestyle .page-topic h1.text-white {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 45px;
+  letter-spacing: -0.05em;
+}
+
+.lifestyle .page-topic p.px-1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.commentsRow h3 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #171821;
+}
+
+.lifestyle .col-lg-8.bg-white.px-0.column_1 {
+  max-width: 65%;
+  margin-right: 15px;
+}
+
+ul.commentsection li {
+  color: black !important;
+}
+
+.usercomment {
+  border-bottom: 1px dotted black;
+  margin: 10px 0px;
+}
+
+.caption {
+  display: none;
+}
+
+.articleImage {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.lifestyle .section2 h4 {
+  margin-left: 15px;
+}
+
+.commentsection .rounded.bg-dark {
+  border-radius: 50% !important;
+  width: 46px !important;
+  height: 46px !important;
+  background: #171821 !important;
+}
+
+.lifestyle .videoclip {
+  position: relative;
+  color: black;
+  font-weight: 600;
+}
+
+.relatedArticles {
+  height: 400px;
+}
+
+form.postcomment input {
+  width: 200px;
+  height: 46px;
+  background: #f7f7f7;
+  border: 1px solid #e3e4e8;
+  box-sizing: border-box;
+}
+
+.lifestyle hr {
+  border: 2px solid #888994;
+  width: 90% !important;
+  display: flex;
+  margin: 5px auto;
+}
+
+@media (max-width: 768px) {
+  .navBreadcrumb,
+  .row.shareSocialIcons {
+    display: none;
+  }
+
+  .lifestyle hr {
+    display: none;
+  }
+
+  h4.articleTitle {
+    margin: 5px 0px 20px 15px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140.62%;
+    color: #171821;
+  }
+  .lifestyle .col-lg-8.bg-white.px-0.column_1 {
+    max-width: 100% !important;
+  }
+
+  .lifestyle .slider.container-fluid.px-0 {
+    width: 100% !important;
+  }
+
+  .lifestyle #carouselSlider .carousel_articles {
+    left: 15px !important;
+    bottom: -20px !important;
+    top: unset;
+    width: 90% !important;
+  }
+
+  .page-topic {
+    width: 100% !important;
+  }
+
+  .lifestyle .page-topic h1.text-white {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 96.4%;
+    mix-blend-mode: normal;
+  }
+
+  .lifestyle.container-fluid.mb-4.px-0 {
+    background: white;
+  }
+
+  .lifestyle .column_1 .row.py-5.px-4 {
+    padding-top: 0px !important;
+  }
+
+  .article_maincontent p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .lifestyle #carouselSlider {
+    width: 100% !important;
+    margin-top: 40px !important;
+    background-position: center;
+  }
+
+  .lifestyle .article_maincontent q {
+    font-size: 18px;
+    line-height: 140.62%;
+    text-transform: lowercase;
+    color: #54555e;
+    width: 100%;
+  }
+
+  .article_maincontent.col-lg-11 {
+    padding: 0px 5px;
+  }
+
+  .row.commentsRow,
+  .social-icons span.social_icons,
+  .row.leavereply,
+  .row.postcomment,
+  .lifestyle .relatedArticles,
+  .advert img.advertImg,
+  .lifestyle #carouselSlider .carousel_articles .page-topic h6,
+  .lifestyle #carouselSlider .carousel_articles .page-topic p {
+    display: none;
+  }
+  .whats_new_articles2 {
+    margin-top: -50px;
+  }
+  .whats_new_articles2 .whats_new,
+  .whats_new_articles2 h4 {
+    display: block !important;
+  }
+}

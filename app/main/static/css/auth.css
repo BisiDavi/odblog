@@ -1,0 +1,131 @@
+.text-box {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  color: white;
+  width: 50% !important;
+  height: 25% !important;
+}
+
+.text-box h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  text-align: left !important;
+  line-height: 120px;
+}
+
+img.authBanner,
+.authImage,
+.auth,
+.authRow {
+  height: 100vh !important;
+  width: 100% !important;
+}
+
+.authForm form div {
+  display: flex;
+  flex-direction: column;
+  margin: 3px 0px;
+}
+
+.authForm form input {
+  background: #f7f7f7;
+  border: 1px solid #e3e4e8;
+  box-sizing: border-box;
+  height: 46px;
+}
+
+.authForm form button {
+  width: 45%;
+  height: 50px;
+  background: #171821 !important;
+  border-radius: 0px !important;
+  margin: 5px 0px;
+}
+
+@media (max-width: 768px) {
+  .auth {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .authRow {
+    margin: 0px !important;
+    height: 100% !important;
+    flex-direction: column;
+  }
+
+  .authImage {
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 40% !important;
+    width: 100% !important;
+  }
+  .authImage img.authBanner {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .welcome-text.text-center {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 96.4%;
+    color: #ffffff;
+    mix-blend-mode: normal;
+  }
+
+  .text-box {
+    bottom: 40px !important;
+    left: 50px;
+    width: 70% !important;
+    top: unset;
+  }
+  .loginText {
+    display: none;
+  }
+  .authForm .signinForm {
+    width: 100% !important;
+  }
+  .auth .authForm {
+    margin: 10px 0px !important;
+    padding: 0px 20px !important;
+  }
+  .authForm form button {
+    margin: 10px auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* register */
+  .registerText {
+    display: none;
+  }
+
+  .registerForm {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .auth,
+  .authRow,
+  .authImage,
+  .authForm,
+  img.authBanner {
+    width: 100% !important;
+    padding: 0px;
+    margin: 0px;
+    height: 100% !important;
+    max-height: 400px !important;
+  }
+  .welcome-text.text-center {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .registerForm,
+  .signinForm.mx-auto {
+    width: 100%;
+  }
+}

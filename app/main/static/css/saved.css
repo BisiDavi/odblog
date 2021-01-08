@@ -1,0 +1,224 @@
+.loadMore {
+  display: none;
+}
+
+.worldPage.container-fluid h1 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+  color: #171821;
+}
+
+.worldPage .whats_new .text-center.d-none.d-lg-block {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.news_1 .title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.05em;
+  color: #171821;
+}
+
+.worldPage button.worldTag {
+  background: #3e3edd;
+  border-radius: 5px;
+  border: none;
+  height: 24px;
+  width: 64px !important;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  bottom: 15px !important;
+  z-index: 100;
+  position: absolute;
+  left: 20px;
+}
+
+.breadCrumbNav .breadcrumb-item,
+.breadCrumbNav .breadcrumb-item a {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #83858f !important;
+}
+
+.advertImg {
+  width: 100%;
+  height: 100% !important;
+}
+
+@media (min-width: 768px) {
+  .worldPage.container-fluid nav.breadCrumbNav {
+    margin-left: 35px;
+  }
+
+  .worldPage.container-fluid h1 {
+    margin-left: 40px;
+  }
+  .container.worldContent .whatarticle {
+    background-color: white;
+  }
+  .worldPage .container.worldContent .column_3 {
+    background-color: unset !important;
+    padding: 0px 2px;
+    margin: 0px 5px;
+  }
+  .worldPage.container-fluid {
+    padding: 50px;
+  }
+  .container.worldContent {
+    padding: 0px !important;
+  }
+  .container.worldContent .col-lg-4 {
+    background-color: white !important;
+    max-width: 32%;
+    margin: 7px;
+    padding: 10px;
+  }
+
+  .worldContent .column_1 .news_1,
+  .worldContent .column_2 .news_1 {
+    height: 350px;
+  }
+  .worldContent .column_1 .news_1 img,
+  .worldContent .column_2 .news_1 img {
+    width: 100% !important;
+    height: 100% !important;
+    padding-bottom: 10px;
+  }
+  .page-link {
+    border: 1px solid #2d95e3 !important;
+    box-sizing: border-box;
+    border-radius: 5px !important;
+    width: 30px;
+    height: 32px;
+  }
+  .nextItem {
+    border: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .worldPage.container-fluid nav {
+    display: none;
+  }
+
+  .worldPage.container-fluid {
+    padding-top: 100px;
+    background: white;
+  }
+
+  .news_1 img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .worldContent .column_1 .news_1,
+  .worldContent .column_2 .news_1 {
+    height: 350px;
+    margin: 0px auto 10px auto !important;
+  }
+
+  .worldPage.container-fluid h1 {
+    font-size: 1.3em;
+    margin-left: 20px;
+    line-height: 24px;
+  }
+
+  .worldContent .column_1 div:nth-child(3) {
+    display: none !important;
+  }
+
+  .loadMore {
+    display: flex;
+    height: 40px;
+    width: 150px;
+    background: #171821;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    border-radius: 0px !important;
+    margin: 20px auto;
+    align-items: center;
+  }
+  .pagination .paginate {
+    display: none !important;
+  }
+  .articleAds {
+    display: none;
+  }
+
+  .news_1 .title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .author.d-flex {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .worldPage .whats_new.bg-white {
+    display: block !important;
+  }
+  .container.worldContent .col-lg-4 {
+    max-width: 31%;
+  }
+  .worldContent .whats_new img {
+    width: 66px !important;
+    height: 66px !important;
+  }
+  .worldContent .news_highlight h5,
+  .worldContent span.author.d-flex p,
+  .worldContent span.author.d-flex .text-primary {
+    font-size: 10px !important;
+  }
+
+  .worldContent .news_1 p {
+    font-size: 15px;
+  }
+  .worldContent .column_1 .news_1 img,
+  .worldContent .column_2 .news_1 img {
+    height: auto !important;
+  }
+
+  .worldPage button.worldTag {
+    bottom: 20px !important;
+  }
+
+  .worldContent .col-lg-4 .position-relative {
+    height: 150px !important;
+  }
+
+  .worldContent .whats_new .news_highlight {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .worldContent .column_1 .news_1,
+  .worldContent .column_2 .news_1 {
+    height: 280px !important;
+  }
+}

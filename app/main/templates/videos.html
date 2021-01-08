@@ -1,0 +1,266 @@
+{% extends 'base/homepagebase.html' %} {% block head %}
+<title>OD Blog | Videos</title>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static',filename='css/videos.css') }}"
+/>
+{% endblock %} {% block body %}
+<div class="videos container px-0">
+  <div class="row">
+    <div class="col-lg-12">
+      <!-- page breadcrumb -->
+      <nav class="mt-5" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Pages</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Videos</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="col-lg-12">
+      <h1 class="text-left title">Videos</h1>
+    </div>
+  </div>
+  <div class="row video_content">
+    <div class="col-lg-8 bg-white column_1 d-flex flex-column p-4">
+      <div class="video-container position-relative">
+        <img
+          class="w-100 h-100"
+          src="{{ url_for('static', filename='images/video.jpg') }}"
+          alt="video"
+        />
+        <div class="video-content position-absolute mx-4">
+          <div class="icon">
+            <img
+              class="mx-auto d-flex"
+              src="{{ url_for('static', filename='images/play.png') }}"
+              alt="play icon"
+            />
+          </div>
+          <div class="d-flex flex-column">
+            <button class="btn btn-primary">WORLD</button>
+            <h3 class="text-white text-left">
+              Anarchic Video Art Group Show Exposes the Pure Chaos of 2018
+            </h3>
+            <div class="d-flex justify-content-between">
+              <div class="left-group d-flex">
+                <i
+                  class="fa fa-clock-o mr-3 mt-1 text-white"
+                  aria-hidden="true"
+                ></i>
+
+                <p>JAN. 21, 2018-BY JOHN DOE</p>
+              </div>
+              <div class="right-group d-flex">
+                <span class="mr-3 d-flex">
+                  <i
+                    class="fa fa-eye mr-3 mt-1 text-white"
+                    aria-hidden="true"
+                  ></i>
+                  <p>1500</p>
+                </span>
+                <span class="d-flex">
+                  <i
+                    class="fa fa-comments-o mr-3 mt-1 text-white"
+                    aria-hidden="true"
+                  ></i>
+                  <p>13</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3 video-post px-2">
+        <div class="col-lg-4 d-flex flex-column px-2">
+          <img
+            src="{{ url_for('static',filename='images/regeneration.jpg') }}"
+            alt="regeneration"
+          />
+
+          <img
+            class="play"
+            src="{{ url_for('static',filename='images/play.png') }}"
+            alt="play icon"
+          />
+          <p>Your Brand Plan Is More Important Than Your Business</p>
+          <span class="d-flex">
+            <p>BY</p>
+            <p class="text-primary mx-1">JOHN DOE</p>
+            <p>- JAN.21, 2018</p>
+          </span>
+        </div>
+        <div class="col-lg-4 d-flex flex-column px-1">
+          <img
+            src="{{ url_for('static',filename='images/fame.jpg') }}"
+            alt="fame"
+          />
+          <img
+            class="play"
+            src="{{ url_for('static',filename='images/play.png') }}"
+            alt="play icon"
+          />
+          <p>How to Bounce Back After a Business Venture Fails</p>
+          <span class="d-flex">
+            <p>BY</p>
+            <p class="text-primary mx-1">JOHN DOE</p>
+            <p>- JAN.21, 2018</p>
+          </span>
+        </div>
+        <div class="col-lg-4 d-flex flex-column px-2">
+          <img
+            src="{{ url_for('static',filename='images/onlyfans.png') }}"
+            alt="onlyfans"
+          />
+          <img
+            class="play"
+            src="{{ url_for('static',filename='images/play.png') }}"
+            alt="play icon"
+          />
+          <p>
+            Dismantling the Street Art Boys Club at an All-Girls Graffiti Camp
+          </p>
+          <span class="d-flex">
+            <p>BY</p>
+            <p class="text-primary mx-1">JOHN DOE</p>
+            <p>- JAN.21, 2018</p>
+          </span>
+        </div>
+      </div>
+      <div class="row mt-3 video-post px-2">
+        <div class="col-lg-4 d-flex flex-column px-2">
+          <img
+            src="{{ url_for('static',filename='images/promising.jpg') }}"
+            alt="promising"
+          />
+          <img
+            class="play"
+            src="{{ url_for('static',filename='images/play.png') }}"
+            alt="play icon"
+          />
+          <p>Doggone Cute Pics From America's First Art Show for Dogs</p>
+          <span class="d-flex">
+            <p>BY</p>
+            <p class="text-primary mx-1">JOHN DOE</p>
+            <p>- JAN.21, 2018</p>
+          </span>
+        </div>
+        <div class="col-lg-4 d-flex flex-column px-1">
+          <img
+            src="{{ url_for('static',filename='images/facemask.jpg') }}"
+            alt="fame"
+          />
+          <img
+            class="play"
+            src="{{ url_for('static',filename='images/play.png') }}"
+            alt="play icon"
+          />
+          <p>Mark Zuckerberg still be in charge of Facebook</p>
+          <span class="d-flex">
+            <p>BY</p>
+            <p class="text-primary mx-1">JOHN DOE</p>
+            <p>- JAN.21, 2018</p>
+          </span>
+        </div>
+        <div class="col-lg-4 d-flex flex-column px-2">
+          <img
+            src="{{ url_for('static',filename='images/solar.jpg') }}"
+            alt="onlyfans"
+          />
+          <img
+            class="play"
+            src="{{ url_for('static',filename='images/play.png') }}"
+            alt="play icon"
+          />
+          <p>9 Breakout Artists from the Venice Biennale</p>
+          <span class="d-flex">
+            <p>BY</p>
+            <p class="text-primary mx-1">JOHN DOE</p>
+            <p>- JAN.21, 2018</p>
+          </span>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-12">
+          <button class="btn mx-auto d-flex loadmore">
+            Load more
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 bg-white d-flex flex-column p-0">
+      <div class="video-sidebar p-4">
+        <h6 class="text-center">RECOMMENDED</h6>
+        <div class="first_story d-flex flex-column">
+          <img
+            src="{{ url_for('static', filename='images/horrorMovies.jpg') }}"
+            alt="horror movies"
+          />
+          <div class="title d-flex flex-column mb-1">
+            <h5>
+              Where to take the best photos in Setouchi Region, Japan and Spread
+            </h5>
+            <span class="author d-flex">
+              <p class="text-muted">BY</p>
+              <p class="text-primary mx-1">JOHN DOE</p>
+              <p>- JAN. 21, 2018</p>
+            </span>
+          </div>
+        </div>
+        <div class="recommended d-flex my-3">
+          <img
+            src="{{ url_for('static', filename='images/regenerationThumbnail.jpg') }}"
+            alt="recommended story"
+            class="mr-2"
+          />
+          <p>It's Never Too Late to Pursue Your Passion</p>
+        </div>
+        <div class="recommended d-flex my-3">
+          <img
+            src="{{ url_for('static', filename='images/fameThumbnail.jpg') }}"
+            alt="recommended story"
+            class="mr-2"
+          />
+          <p>Here's Why You Should Get Involved With Now</p>
+        </div>
+        <div class="recommended d-flex my-3">
+          <img
+            src="{{ url_for('static', filename='images/onlyfansThumbnail.jpg') }}"
+            alt="recommended story"
+            class="mr-2"
+          />
+          <p>What's More Important: the CEO or the Idea?</p>
+        </div>
+        <div class="recommended d-flex my-3">
+          <img
+            src="{{ url_for('static', filename='images/promisingThumbnail.jpg') }}"
+            alt="recommended story"
+            class="mr-2"
+          />
+          <p>Anarchic Video Art Group Show Exposes the Pure Chaos of 2018</p>
+        </div>
+        <div class="recommended d-flex my-3">
+          <img
+            src="{{ url_for('static', filename='images/facemaskThumbnail.jpg') }}"
+            alt="recommended story"
+            class="mr-2"
+          />
+          <p>Doggone Cute Pics From America's First Art Show for Dogs</p>
+        </div>
+      </div>
+      <div class="ads-container p-0">
+        <img
+          class="advert"
+          src="{{ url_for('static', filename='images/ad.jpg') }}"
+          alt="ads"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col-lg-12 px-4">{% include "partials/videocarousel.html" %}</div>
+  </div>
+</div>
+
+{% endblock %}
+

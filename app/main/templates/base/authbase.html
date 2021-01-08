@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/auth.css') }}"
+    />
+
+    {% block authTitle %} {% endblock %}
+  </head>
+  <body>
+    <div class="container-fluid auth px-0">
+      <div class="row authRow">
+        <div class="col-lg-8 authImage position-relative">
+          <img
+            class="authBanner"
+            src="{{ url_for('static', filename='images/loginBanner.jpg') }}"
+            alt="OD Blog"
+          />
+          <div class="text-box">
+            <h1 class="welcome-text text-center">Welcome to OD Blog</h1>
+          </div>
+        </div>
+        <div class="col-lg-4 bg-white authForm d-flex m-auto px-5">
+          {% block authForm %} {% endblock %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

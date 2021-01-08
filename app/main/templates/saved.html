@@ -1,0 +1,48 @@
+{% extends 'base/pagebase.html' %} {% block head %}
+<title>OD Blog | Saved</title>
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/saved.css') }}"
+/>
+{% endblock %} {% block body %}
+<div class="worldPage container-fluid">
+  <nav aria-label="breadcrumb" class="breadCrumbNav">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Pages</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Saved Post</li>
+    </ol>
+  </nav>
+
+  <h1>Saved</h1>
+  <div class="container worldContent">
+    <div class="row">
+      <div class="col-lg-4 column_1">
+        {% include 'partials/worldColumn1.html' %}
+      </div>
+      <div class="col-lg-4 column_2">
+        {% include 'partials/worldColumn2.html' %}
+      </div>
+      <div class="col-lg-4 column_3">
+        <div class="whatarticle">
+          {% include 'partials/whatsnewArticles2.html' %}
+        </div>
+        <div class="mt-3">
+          <img
+            src="{{ url_for('static', filename='images/ad.jpg') }}"
+            alt="your advert"
+            class="advertImg"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="pagination mx-auto mt-2">
+        {% include 'partials/pagination.html' %}
+        <button class="btn loadMore">Load more</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

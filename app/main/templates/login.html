@@ -1,0 +1,26 @@
+{% extends 'base/authbase.html' %} {% block head %}
+<title>OD Blog | Register</title>
+{% endblock %} {% block authForm %}
+<div class="signinForm mx-auto">
+  <span class="loginText">
+  <h1 class="text-center">Sign in</h1>
+  <p class="text-center">
+    It's free to join and gain full access to thousands of opportunities
+  </p>
+  </span>
+  <form>
+    <div class="email">
+      <label for="email">E-mail*</label>
+      <input type="email" name="email" id="email" required />
+    </div>
+    <div class="password">
+      <label for="password">Password*</label>
+      <input type="password" name="password" id="password" required />
+    </div>
+    <button class="btn bg-dark text-white p-2 mt-1">Submit</button>
+  </form>
+  <p class="text-center">
+    Already have an account? <a href="/register">register</a> here
+  </p>
+</div>
+{% endblock %}
