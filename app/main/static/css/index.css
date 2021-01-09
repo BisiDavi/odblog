@@ -115,7 +115,7 @@ header {
 header .menu-links a {
   font-size: 14px;
   margin: 0px 7px;
-}  
+}
 
 header.social_icon-links {
   height: 32px;
@@ -526,10 +526,7 @@ main#article-section .bg-white {
 main#article-section .bg-white h1 {
   margin: 20px !important;
 }
-.whats_hot {
-  /* max-width: 500px; */
-  /* margin: 0px 10px; */
-}
+
 .whats_hot .hot_news {
   position: relative;
   /* height: 550px; */
