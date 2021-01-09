@@ -143,22 +143,24 @@ span.hamburger_logo {
     width: 250px;
     align-items: flex-end;
     height: 50px;
+    margin: 20px 0px;
   }
 
   #sidenav li.site-name a {
-    font-size: 26px !important;
+    font-size: 36px !important;
     font-weight: bolder !important;
     line-height: 26px !important;
+    border-bottom: 0px !important;
   }
 
   #sidenav li.site-name {
-    margin: -15px 0px 30px 0px;
+    margin: 10px 0px 60px 0px !important;
   }
 
   #sidenav ul.menu-links a {
     font-family: 'Roboto';
     font-weight: normal;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 18px;
     display: flex;
     align-items: center;
