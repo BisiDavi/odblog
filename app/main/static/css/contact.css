@@ -46,6 +46,9 @@ h3 {
     background: white;
     padding: 0px 10px !important;
   }
+  #main {
+    width: min-content !important;
+  }
   .Contact-us .contactImage {
     order: 2;
   }

@@ -40,6 +40,10 @@ span.hamburger_logo {
     width: 100% !important;
     max-width: 530px;
   }
+  #sidenav ul.menu-links a {
+    border-bottom: 1px solid #d8d8d8 !important;
+    width: 100% !important;
+  }
   /* hamburgerWhite */
   nav .hamburger_logo {
     top: 15px;
@@ -81,6 +85,7 @@ span.hamburger_logo {
   }
 
   .sidebar_overlay.active {
+    cursor: pointer;
     background: rgba(0, 0, 0, 0.65);
     opacity: 1 !important;
     width: 550px;
@@ -128,6 +133,9 @@ span.hamburger_logo {
     border-bottom: 0px !important;
   }
 
+  #sidenav ul.menu-links li.navmenu-link {
+    border-bottom: 1px solid #d8d8d8 !important;
+  }
   #sidenav ul.menu-links li {
     border-bottom: 1px solid #d8d8d8 !important;
     padding: 0px !important;

@@ -158,3 +158,55 @@ button.loadmore {
   align-items: center;
   background: #171821;
 }
+
+@media (max-width: 768px) {
+  .video-post .play {
+    margin-top: -150px !important;
+    margin-bottom: 105px !important;
+  }
+  .video-content .icon {
+    margin-bottom: 10px !important;
+  }
+  .videos .video_content .column_1 {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .videos .col-lg-12 .text-left.title {
+    margin-left: 20px !important;
+    margin-top: 100px !important;
+  }
+  .videos nav.mt-5 {
+    display: none;
+  }
+  .videos .row.video_content {
+    margin: 0px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .video_content .video-content .d-flex.justify-content-between p {
+    font-size: 13px;
+  }
+  .video-sidebar h6.text-center {
+    margin-bottom: 30px;
+    font-size: 25px !important;
+  }
+  .videos.container.px-0,
+  .videos.container .row {
+    width: 500px !important;
+    background: white;
+  }
+  .video-content .text-white.text-left {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  .video-post img:first-child {
+    width: 100% !important;
+    padding-right: 20px !important;
+    height: 250px;
+  }
+  .video-sidebar.p-4 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

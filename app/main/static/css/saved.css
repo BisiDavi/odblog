@@ -118,7 +118,9 @@
   .worldPage.container-fluid nav {
     display: none;
   }
-
+  #main {
+    width: min-content !important;
+  }
   .worldPage.container-fluid {
     padding-top: 100px;
     background: white;

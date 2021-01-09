@@ -27,6 +27,10 @@ p {
 
 /* media queries */
 @media (max-width: 768px) {
+  #main {
+    width: min-content !important;
+  }
+
   .about-us.container {
     background: white !important;
   }

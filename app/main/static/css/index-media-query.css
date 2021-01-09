@@ -516,9 +516,8 @@
   }
 
   #main {
-    width: 100% !important;
+    width: min-content !important;
   }
-
   footer.footer .col-lg-4.hideme_mobile {
     display: none !important;
   }
