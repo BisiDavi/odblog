@@ -108,6 +108,7 @@ main.darkMode #mobileTab.mobile {
 
 main#main.darkMode span#arrowGroup a.bg-white {
   background: #15202b !important;
+  color: white;
 }
 
 #main.darkMode .usercomment.firstComment {

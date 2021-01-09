@@ -4,6 +4,7 @@ let sideNavWidth = 0;
 function openNav() {
   const sideNav = document.getElementById('sidenav');
   sideNavWidth = sideNav.style.width = '250px';
+  console.log('sideNavWidth', sideNavWidth);
   document.getElementById('main').style.marginLeft = '250px';
   // document.getElementById('carouselSlider').style.marginLeft = '250px';
   sideNavWidth.length > 2 ? (navMenuState = true) : null;
@@ -22,7 +23,6 @@ function openNav() {
 function closeNav() {
   document.getElementById('sidenav').style.width = '0';
   document.getElementById('main').style.marginLeft = '0';
-  // document.getElementById('carouselSlider').style.marginLeft = '0';
   document.getElementById('sidebarOverlay').classList.remove('active');
   document.getElementById('mainHeader').classList.remove('active');
 }
