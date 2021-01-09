@@ -5,6 +5,10 @@
     width: 95%;
   }
 
+  main#main {
+    width: 100% !important;
+  }
+
   ul.menu-links.d-flex.pl-4 {
     font-size: 12px;
     margin: 0px !important;
