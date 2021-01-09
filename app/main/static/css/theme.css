@@ -10,17 +10,30 @@ nav#nav.darkMode h1 {
 }
 
 /* main */
-main.darkMode .bg-white p,
-main.darkMode .bg-white h1,
-main.darkMode .bg-white h5,
-main#article-section.darkMode .bg-white-card h5,
+#main.darkMode .bg-white p,
+#main.darkMode .bg-white h1,
+#main.darkMode .bg-white h5,
+#main.darkMode #article-section .bg-white-card h5,
 span#arrowGroup.darkMode a,
-main.darkMode h4.video-text {
+#main.darkMode h4.video-text,
+#main.darkMode h1,
+#main.darkMode h6,
+#main.darkMode a.page-link {
   color: white !important;
 }
 
-main.darkMode .bg-white {
+#main.darkMode .bg-white {
   background-color: #21374b !important;
+}
+
+#main.darkMode span.page-link {
+  color: #21374b !important;
+}
+
+#main.darkMode .attachFile {
+  background: #21374b !important;
+  border: 1px dashed #486179 !important;
+  box-sizing: border-box;
 }
 
 main#main.darkMode {
@@ -29,12 +42,12 @@ main#main.darkMode {
 
 /* mobile media-query */
 @media (max-width: 768px) {
-  main#article-section.darkMode,
-  main#article-section.darkMode .bg-white-card {
+  main.darkMode #article-section,
+  main.darkMode #article-section .bg-white-card {
     background-color: #1b2c3a !important;
     margin-top: -10px;
   }
-  #mobileTab.mobile.darkMode {
+  main.darkMode #mobileTab.mobile {
     background: #21374b !important;
     margin: 20px auto !important;
   }
@@ -49,7 +62,8 @@ main#main.darkMode {
 }
 
 /* button */
-.load_more button.darkMode {
+main#main.darkMode .load_more button,
+main#main.darkMode button.loadmore {
   background-color: #2d95e3 !important;
 }
 
@@ -62,15 +76,49 @@ span.arrow-group.controls.darkMode div {
 }
 
 /* mobile tab */
-#mobileTab.mobile.darkMode {
+main.darkMode #mobileTab.mobile {
   background: #21374b !important;
 }
 
-#mobileTab.darkMode a {
+#main.darkMode #mobileTab a,
+#main.darkMode .caption,
+#main.darkMode h4,
+#main.darkMode h3,
+#main.darkMode q,
+#main.darkMode p,
+#main.darkMode label {
   color: white !important;
 }
+#main.darkMode textarea,
+#main.darkMode input {
+  background: #15202b !important;
+  border: 1px solid #486179;
+}
+#main.darkMode form.postcomment .btn.btn-danger {
+  background: #2d95e3 !important;
+}
 
-#mobileTab.darkMode li.nav-item a.nav-link.active {
+#main.darkMode .usercomment {
+  border-bottom: 1px dotted #171821 !important;
+}
+
+#main.darkMode .lifestyle hr {
+  border: 2px solid #171821;
+}
+
+main#main.darkMode span#arrowGroup a.bg-white {
+  background: #15202b !important;
+}
+
+#main.darkMode .usercomment.firstComment {
+  border-bottom: none !important;
+}
+
+#main.darkMode span.author p.text-muted {
+  color: #83858f !important;
+}
+
+main.darkMode #mobileTab li.nav-item a.nav-link.active {
   background-color: #2d95e3 !important;
 }
 

@@ -1,3 +1,34 @@
+.promotion .forminput label,
+.contribute .forminput label {
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+.promotion .row.bg-white.mb-0,
+.contribute .row.bg-white.mb-0 {
+  margin-bottom: 30px !important;
+}
+
+.promotion .btn.btn-primary.mt-2.mb-3,
+.contribute .btn.btn-primary.mt-2.mb-3 {
+  width: 143px;
+  background: #2d95e3 !important;
+  border-radius: 5px;
+  font-size: 10px;
+  height: 46px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-content: center;
+  margin-top: 30px !important;
+}
+
 .contribute h3,
 .promotion h3 {
   font-family: 'Montserrat', sans-serif;

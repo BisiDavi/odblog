@@ -68,6 +68,12 @@
     margin-left: 35px;
   }
 
+  .page-link.bg-white,
+  .page-link {
+    display: flex;
+    justify-content: center;
+  }
+
   .worldPage.container-fluid h1 {
     margin-left: 40px;
   }

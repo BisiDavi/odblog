@@ -4,60 +4,62 @@
       <h4 class="font-weight-bold video-text">Related Articles</h4>
       <!-- <p class="text-primary ml-2 mt-1 font-weight-bold">VIEW ALL</p> -->
     </span>
-    <span id="arrowGroup" class="arrow-group controls d-flex my-2">
-      <a class="prevArrowLeft mx-1 bg-white" role="button">
+    <span id="arrowGroup" class="arrow-group controls d-flex my-2 owl-nav">
+      <a class="mx-1 bg-white owl-next nextButton" role="button">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
       </a>
-      <a class="nextArrowRight mx-1 bg-white" role="button">
+      <a class="mx-1 bg-white owl-prev prevButton" role="button">
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </a>
     </span>
   </div>
   <div
     id="videoCarouselIndicator"
-    class="videos_container row col-lg-12 d-flex px-0"
+    class="videos_container row col-lg-12 d-flex px-0 owl-carousel owl-theme owl-loaded"
   >
-    <div class="videoSlide card-group">
-      <div class="video card position-relative col-lg-4 px-0 mx-0">
-        <div class="img-overlay"></div>
-        <img
-          src="{{ url_for('static', filename='images/5g.jpg') }}"
-          class="card-img-top"
-          alt=""
-        />
+    <div class="videoSlide card-group owl-stage-outer">
+      <div class="owl-stage">
+        <div class="video owl-item card position-relative col-lg-4 px-0 mx-0">
+          <div class="img-overlay"></div>
+          <img
+            src="{{ url_for('static', filename='images/5g.jpg') }}"
+            class="card-img-top"
+            alt=""
+          />
 
-        <div class="card-body videoclip">
-          <p class="card-text">
-            5G is getting faster, but the U.S. is lagging behind
-          </p>
+          <div class="card-body videoclip">
+            <p class="card-text">
+              5G is getting faster, but the U.S. is lagging behind
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="video card position-relative col-lg-4 px-0 mx-0">
-        <div class="img-overlay"></div>
-        <img
-          src="{{ url_for('static', filename='images/artic.jpg') }}"
-          class="card-img-top"
-          alt=""
-        />
+        <div class="video owl-item card position-relative col-lg-4 px-0 mx-0">
+          <div class="img-overlay"></div>
+          <img
+            src="{{ url_for('static', filename='images/artic.jpg') }}"
+            class="card-img-top"
+            alt=""
+          />
 
-        <div class="card-body videoclip">
-          <p class="card-text">
-           U.S. releases video showing rapid, alarming Arctic change
-          </p>
+          <div class="card-body videoclip">
+            <p class="card-text">
+              U.S. releases video showing rapid, alarming Arctic change
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="video card position-relative col-lg-4 px-0 mx-0">
-        <div class="img-overlay"></div>
-        <img
-          src="{{ url_for('static', filename='images/spacex.jpg') }}"
-          class="card-img-top"
-          alt=""
-        />
+        <div class="video owl-item card position-relative col-lg-4 px-0 mx-0">
+          <div class="img-overlay"></div>
+          <img
+            src="{{ url_for('static', filename='images/spacex.jpg') }}"
+            class="card-img-top"
+            alt=""
+          />
 
-        <div class="card-body videoclip">
-          <p class="card-text">
-            How to watch SpaceX launch the Starship rocket
-          </p>
+          <div class="card-body videoclip">
+            <p class="card-text">
+              How to watch SpaceX launch the Starship rocket
+            </p>
+          </div>
         </div>
       </div>
     </div>

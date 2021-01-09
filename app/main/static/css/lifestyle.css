@@ -17,7 +17,7 @@ h4.articleTitle {
 
 .viewReplies.text-muted.font-weight-bold {
   font-size: 12px;
-line-height: 140.62%;
+  line-height: 140.62%;
 }
 .usercomment .reply.text-muted {
   font-size: 15px !important;
@@ -407,5 +407,48 @@ form.postcomment input {
   .whats_new_articles2 .whats_new,
   .whats_new_articles2 h4 {
     display: block !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .lifestyle .videoclip p.card-text {
+    color: black !important;
+    font-size: 18px;
+    position: absolute;
+    z-index: 1;
+    bottom: -80px;
+    height: 100px;
+  }
+  #videoCarouselIndicator .slick-list.draggable {
+    height: 350px !important;
+  }
+
+  #showOnLarge #arrowGroup a {
+    width: 28px !important;
+    height: 30px !important;
+    background: #f7f7f7 !important;
+    font-size: 13px !important;
+  }
+  .lifestyle .col-lg-4 .whats_new_articles2 {
+    height: 1235px;
+    overflow: hidden;
+  }
+  .whats_new_articles2 .whats_new h1.text-center.d-none.d-lg-block {
+    display: none !important;
+  }
+  #main .container-fluid.mt-5.lifestylePage {
+    margin-top: -15px !important;
+    padding-top: 1px;
+  }
+  .article_maincontent.col-lg-11.pr-5 a {
+    color: red;
+    text-decoration: underline;
+  }
+
+  .article_maincontent .caption {
+    display: block !important;
+    color: black;
+    font-style: italic;
+    margin-bottom: 40px;
   }
 }
