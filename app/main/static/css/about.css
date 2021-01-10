@@ -58,12 +58,16 @@ p {
     margin-top: 0px !important;
   }
 
+  q.mx-auto.my-3.page-quote {
+    font-size: 30px;
+  }
+
   .about-us p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 1.5em;
+    line-height: 30px;
     text-transform: lowercase;
     color: #54555e;
   }

@@ -14,7 +14,7 @@ nav#nav.darkMode h1 {
 #main.darkMode .bg-white h1,
 #main.darkMode .bg-white h5,
 #main.darkMode #article-section .bg-white-card h5,
-span#arrowGroup.darkMode a,
+#main.darkMode span#arrowGroup a,
 #main.darkMode h4.video-text,
 #main.darkMode h1,
 #main.darkMode h6,
@@ -63,7 +63,8 @@ main#main.darkMode {
 
 /* button */
 main#main.darkMode .load_more button,
-main#main.darkMode button.loadmore {
+main#main.darkMode button.loadmore,
+main#main.darkMode button.loadMore {
   background-color: #2d95e3 !important;
 }
 

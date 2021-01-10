@@ -141,7 +141,7 @@
 
   .promotion.container,
   .contribute.container {
-    background: white;
+    /* background: white; */
   }
 
   .forminput input {

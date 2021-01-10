@@ -11,7 +11,9 @@
 
   main#main {
     width: 560px !important;
+    padding-right: 0px !important;
   }
+
   ul.menu-links.d-flex.pl-4 {
     font-size: 12px;
     margin: 0px !important;
@@ -146,8 +148,9 @@
   }
   #main .footer.container-fluid.p-5 {
     width: 100% !important;
-    padding: 10px !important;
+    padding: 25px !important;
   }
+
   /* what's hot */
   main div#pills-whatsnews {
     width: 100% !important;
@@ -491,7 +494,7 @@
     margin-top: 30px;
   }
   footer.footer .blog p {
-    font-size: 16px;
+    font-size: 20px;
   }
   footer.footer h6.text-white {
     font-size: 19px;
@@ -510,6 +513,12 @@
     width: 90% !important;
     margin: 30px auto !important;
     height: 70px !important;
+  }
+
+  footer.footer a,
+  footer.footer p {
+    font-size: 25px;
+    line-height: 30px;
   }
 
   #main span.author.d-flex p.text-muted,
@@ -570,6 +579,7 @@
   #main {
     width: min-content !important;
     padding-right: 15px !important;
+    /* padding-right: 0px !important; */
   }
   footer.footer .col-lg-4.hideme_mobile {
     display: none !important;
@@ -848,4 +858,15 @@
 }
 
 @media (min-width: 600px) and (max-width: 999px) {
+}
+
+@media (max-width: 450px) and (min-width: 350px) {
+  main#main {
+    width: 580px !important;
+    padding-right: 15px !important;
+  }
+  li#dropdownMenuLang,
+  .social_icon-links a {
+    font-size: 19px !important;
+  }
 }

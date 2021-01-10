@@ -193,7 +193,7 @@ button.loadmore {
   .videos.container.px-0,
   .videos.container .row {
     width: 500px !important;
-    background: white;
+    /* background: white; */
   }
   .video-content .text-white.text-left {
     font-size: 15px;

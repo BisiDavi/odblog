@@ -43,7 +43,7 @@ h3 {
 
 @media (max-width: 768px) {
   .Contact-us.container {
-    background: white;
+    /* background: white; */
     padding: 0px 10px !important;
   }
   #main {
@@ -60,6 +60,7 @@ h3 {
     margin-left: 20px;
     margin-top: 90px !important;
     line-height: 24px;
+    font-size: 2em;
   }
   h3 {
     font-family: 'Montserrat', sans-serif;
@@ -73,6 +74,7 @@ h3 {
     text-align: left;
     line-height: 24px;
     margin-top: 15px;
+    font-size: 1.5em;
   }
   .Contact-us .row.bg-white.mb-0 {
     padding: 0px 10px;
@@ -85,6 +87,7 @@ h3 {
   }
   .Contact-us p {
     text-align: left;
+    font-size: 1.5em;
   }
   nav.mt-5.col-lg-12.px-0,
   .contact-social-icons span {

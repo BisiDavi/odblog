@@ -9,7 +9,6 @@ function darkModeTheme() {
   document.getElementById('hamburgerWhite').src = './images/hamburgerWhite.png';
   document.getElementById('nav').classList.add('darkMode');
   document.getElementById('main').classList.add('darkMode');
-  document.getElementById('arrowGroup').classList.add('darkMode');
   document.getElementById('sidenav').classList.add('darkMode');
   document.getElementById('footerForm').classList.add('darkMode');
 }
@@ -19,7 +18,6 @@ const dayLightTheme = () => {
   document.getElementById('switchButtonWhite').src = './images/switch.png';
   document.getElementById('hamburgerWhite').src = './images/hamburger.png';
   document.getElementById('main').classList.remove('darkMode');
-  document.getElementById('arrowGroup').classList.remove('darkMode');
   document.getElementById('sidenav').classList.remove('darkMode');
   document.getElementById('footerForm').classList.remove('darkMode');
 };

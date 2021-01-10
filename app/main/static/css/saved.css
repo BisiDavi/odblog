@@ -124,12 +124,15 @@
   .worldPage.container-fluid nav {
     display: none;
   }
+  #main.darkMode .worldContent .col-lg-4.bg-white {
+    background-color: transparent !important;
+  }
   #main {
     width: min-content !important;
   }
   .worldPage.container-fluid {
     padding-top: 100px;
-    background: white;
+    /* background: white; */
   }
 
   .news_1 img {
@@ -140,7 +143,9 @@
   .worldContent .column_1 .news_1,
   .worldContent .column_2 .news_1 {
     height: 350px;
-    margin: 0px auto 10px auto !important;
+    margin: 30px auto 30px auto !important;
+    width: 100% !important;
+    padding: 0px !important;
   }
 
   .worldPage.container-fluid h1 {
@@ -178,8 +183,9 @@
   }
 
   .news_1 .title {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
+    padding: 20px;
   }
 
   .author.d-flex {
