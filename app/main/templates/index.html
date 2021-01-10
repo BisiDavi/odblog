@@ -1,5 +1,11 @@
 {% extends 'base/homepagebase.html' %} {% block head %}
 <title>OD Blog</title>
+<script>
+  function myFunc(vars) {
+      return vars
+  }
+  let myVar = myFunc({{session_data|tojson}})
+</script>
 {% endblock head %} {% block body %}
 <!-- main carousel -->
 {% include 'partials/MainBanner.html' %}

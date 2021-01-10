@@ -1,5 +1,6 @@
 let appTheme = {
-  theme: false,
+  toggleTheme: false,
+  theme: myVar.dark_mode,
   THEME_STATE: null
 };
 
@@ -23,8 +24,8 @@ const dayLightTheme = () => {
 };
 
 const toggleButton = () => {
-  appTheme.theme = !appTheme.theme;
-  newTheme = { ...appTheme, THEME_STATE: appTheme.theme };
+  appTheme.toggleTheme = !appTheme.toggleTheme;
+  let newTheme = { ...appTheme, THEME_STATE: appTheme.toggleTheme };
   newTheme.THEME_STATE ? darkModeTheme() : dayLightTheme();
   if (newTheme.THEME_STATE === true) {
     localStorage.setItem('themeState', 'dark');
@@ -34,6 +35,9 @@ const toggleButton = () => {
     null;
   }
 };
+
+if (appTheme.THEME_STATE === null)
+  appTheme.theme ? darkModeTheme() : dayLightTheme();
 
 const themeState = window.localStorage.getItem('themeState');
 

@@ -2,13 +2,13 @@ from ... import blueprint
 from flask import render_template, url_for
 from flask import session
 from app.main.business.session_business import SessionBusiness
-
+from app.main.business.home_business import HomeBusiness
 
 
 @blueprint.route("/")
 def index():
     SessionBusiness.check_session()
-    return render_template("index.html", session_data=session["profile"])
+    return HomeBusiness.get_home()
 
 @blueprint.route("/lifestyle")
 def lifestyle_page():
