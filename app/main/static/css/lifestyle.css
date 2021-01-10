@@ -327,6 +327,35 @@ form.postcomment input {
     display: none;
   }
 
+  .lifestyle .article_maincontent p {
+    font-size: 25px !important;
+    padding: 15px;
+    line-height: 35px !important;
+  }
+
+  .article_maincontent h4.articleTitle,
+  h4.articleTitle {
+    font-size: 35px !important;
+  }
+
+  #main .lifestyle div#carouselSlider {
+    width: 560px !important;
+  }
+
+  span.text-primary,
+  .author p.text-muted {
+    font-size: 15px !important;
+  }
+
+  #main .lifestyle .news_highlight .title h5 {
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: left;
+    font-size: 18px !important;
+    line-height: 35px !important;
+    letter-spacing: 1.2px;
+  }
+
   h4.articleTitle {
     margin: 5px 0px 20px 15px;
     font-weight: normal;
@@ -336,6 +365,7 @@ form.postcomment input {
   }
   .lifestyle .col-lg-8.bg-white.px-0.column_1 {
     max-width: 100% !important;
+    margin-right: 0px !important;
   }
 
   .lifestyle .slider.container-fluid.px-0 {
@@ -356,13 +386,13 @@ form.postcomment input {
   .lifestyle .page-topic h1.text-white {
     font-weight: 500;
     font-size: 30px;
-    line-height: 96.4%;
+    line-height: 150%;
     mix-blend-mode: normal;
   }
 
-  .lifestyle.container-fluid.mb-4.px-0 {
+  /* .lifestyle.container-fluid.mb-4.px-0 {
     background: white;
-  }
+  } */
 
   .lifestyle .column_1 .row.py-5.px-4 {
     padding-top: 0px !important;
@@ -377,6 +407,10 @@ form.postcomment input {
     width: 100% !important;
     margin-top: 40px !important;
     background-position: center;
+  }
+
+  #main .lifestyle div#carouselSlider {
+    width: 560px !important;
   }
 
   .lifestyle .article_maincontent q {
